@@ -1,7 +1,6 @@
-# basic-auto-prompt-optimization
-A simple Auto Prompt Optimization: Implementation of https://arxiv.org/pdf/2305.03495
+# Auto Prompt Optimization
 
-# Algorithm with simple steps
+## Algorithm with simple steps
 ```
 Here's how Auto-Prompt Optimization works in simple steps:
 1. Start Simple
@@ -16,11 +15,15 @@ Here's how Auto-Prompt Optimization works in simple steps:
    * Run multiple optimization rounds
    * Select the highest-performing prompt
 ```
+Refer to https://arxiv.org/pdf/2305.03495 for more details.
 
-# Code
-I think you should give it a try, so not sharing any code! Please feel free to add a comment if you have any questions on implementation.
+## Code
+I think you should give it a try using the shared algorithm, prompt templates and data, so not sharing any code! 
+Please feel free to add a comment if you have any questions on implementation.
 
-# Sample Initial prompt
+## Prompts
+
+### Sample initial prompt
 ```
 #Task
 Categorize the custom support ticket.
@@ -29,7 +32,7 @@ Categorize the custom support ticket.
 Classify into one of these classes: 'Technical Support', 'Billing', 'General information', 'Complaint and escalations', 'Feedback and suggestions'.
 ```
 
-# Gradient prompt
+### Gradient prompt template
 ```
 I'm trying to write a zero-shot classifier prompt.
 My current prompt is:
@@ -42,7 +45,7 @@ Give {num_feedbacks} reasons why the prompt could have gotten these examples wro
 Wrap each reason with <START> and <END>
 ```
 
-# Edit Prompt
+### Edit prompt template
 ```
 I'm trying to write a zero-shot classifier.
 My current prompt is:
@@ -59,7 +62,7 @@ Each prompt should be wrapped with <START> and <END>.
 The {steps_per_gradient} new prompts are:
 ```
 
-# Sample Training/Eval data for a dry run
+## Sample Training/Eval data for a dry run
 ```
 TRAINING_DATA = [
         # Technical Support
