@@ -18,7 +18,7 @@ Here's how Auto-Prompt Optimization works in simple steps:
 ```
 
 # Code
-I think you should give it a try, so not sharing any code! 
+I think you should give it a try, so not sharing any code! Please feel free to add a comment if you have any questions on implementation.
 
 # Sample Initial prompt
 ```
