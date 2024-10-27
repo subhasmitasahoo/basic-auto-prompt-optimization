@@ -1,7 +1,26 @@
 # basic-auto-prompt-optimization
 A simple Auto Prompt Optimization: Implementation of https://arxiv.org/pdf/2305.03495
 
-# Initial prompt
+# Algorithm with simple steps
+```
+Here's how Auto-Prompt Optimization works in simple steps:
+1. Start Simple
+   * Begin with a basic 2-line prompt
+   * Just include the task and class names (no detailed descriptions needed!)
+2. Iterate and Improve
+   * Test the initial prompt and measure accuracy
+   * Create a "gradient prompt" asking the model for improvement feedback
+   * Generate new prompt versions based on this feedback
+   * Test these new prompts and keep the best performers
+3. Repeat and Perfect
+   * Run multiple optimization rounds
+   * Select the highest-performing prompt
+```
+
+# Code
+I think you should give it a try, so not sharing any code! 
+
+# Sample Initial prompt
 ```
 #Task
 Categorize the custom support ticket.
