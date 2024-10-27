@@ -17,10 +17,6 @@ Here's how Auto-Prompt Optimization works in simple steps:
 ```
 Refer to https://arxiv.org/pdf/2305.03495 for more details.
 
-## Code
-I think you should give it a try using the shared algorithm, prompt templates and data, so not sharing any code! 
-Please feel free to add a comment if you have any questions on implementation.
-
 ## Prompts
 
 ### Sample initial prompt
@@ -151,3 +147,7 @@ TRAINING_DATA = [
     Example("Your machine learning pipeline integration is promising, but needs better support for A/B testing frameworks, automated model retraining triggers based on drift detection, and more sophisticated feature store capabilities. Consider adding integration with popular ML ops tools and support for distributed training across multiple zones.", "Feedback and Suggestions")
 ]
 ```
+
+## Code
+I think you should give it a try using the shared algorithm, prompt templates and data, so not sharing any code! 
+Please feel free to add a comment if you have any questions on implementation, I will try my best to help you on this.
